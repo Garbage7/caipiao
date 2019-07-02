@@ -1,0 +1,237 @@
+::before,
+ ::after {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    /*兼容移动端主流浏览器*/
+    -webkit-tap-highlight-color: transparent;
+    /*清除移动端点击高亮效果*/
+}
+
+.header {
+    width: 100%;
+    /* max-width: 18.75rem; */
+    min-width: 8rem;
+    height: 1.625rem;
+    margin: 0 auto;
+    background-color: #333333;
+    text-align: center;
+}
+
+.header p {
+    color: #ffffff;
+    line-height: 1.625rem;
+    font-size: 0.6rem;
+}
+
+.shuffling {
+    width: 100%;
+    /* max-width: 18.75rem; */
+    min-width: 8rem;
+    position: relative;
+    height: 7.175rem;
+    margin: 0 auto;
+}
+
+.banner {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner ul:first-child {
+    width: 1000%;
+    -webkit-transform: translateX(-10%);
+    transform: translateX(-10%);
+}
+
+.banner ul:first-child li {
+    width: 10%;
+    float: left;
+}
+
+.banner ul:first-child li a {
+    display: block;
+    width: 100%;
+}
+
+.banner ul:first-child li a img {
+    width: 100%;
+    display: block;
+    height: 7.175rem;
+}
+
+.banner ul:last-child {
+    position: absolute;
+    bottom: 0.15rem;
+    width: 100%;
+    text-align: center;
+}
+
+.banner ul:last-child li {
+    width: 0.15rem;
+    height: 0.15rem;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 0.25rem;
+}
+
+.banner ul:last-child li:first-child {
+    margin-left: 0;
+}
+
+.banner ul:last-child li.now {
+    background: #fff;
+}
+
+.news {
+    border-bottom: 1px solid #EFEFEF;
+    height: 1.5rem;
+    width: 100%;
+}
+
+.news p {
+    /* padding-left: 1.675rem; */
+    line-height: 1.5rem;
+    font-size: 0.45rem;
+}
+
+.news .new {
+    width: 0.95rem;
+    height: 0.95rem;
+    margin: 0 0.45rem;
+}
+
+.news .new img {
+    width: 0.95rem;
+    height: 0.95rem;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: 3.85rem;
+}
+
+.flex-item {
+    text-align: center;
+    width: 33%;
+    height: 100%;
+    line-height: 3.85rem;
+}
+
+.flex-item img {
+    width: 2.8rem;
+    height: 2.5rem;
+    /* margin: 0.4rem 1.25rem 0.95rem 1.4rem; */
+    /* border-right: 1px solid #ccc; */
+}
+
+.cl {
+    width: 100%;
+    height: 0.25rem;
+    background-color: #EFEFEF;
+}
+
+.rmcz {
+    width: 100%;
+    /* height: 1.55rem; */
+    font-size: 0.45rem;
+}
+
+.rmcz h4 {
+    height: 1.55rem;
+    line-height: 1.55rem;
+    float: left;
+}
+
+.rmcz h4 span {
+    color: #F4741E;
+    font-weight: bold;
+    padding: 0 0.3rem;
+}
+
+.rmcz a {
+    line-height: 1.55rem;
+    float: right;
+    color: #D2D2D2;
+    margin-right: .325rem;
+}
+
+.rmcz .kind {
+    /* display: -webkit-flex; */
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    justify-content: center;
+    -webkit-flex-flow: row wrap;
+    display: 3 -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: 7.9rem;
+    border-top: .025rem solid #EFEFEF;
+    flex-direction: row;
+}
+
+.rmcz .kind li {
+    text-align: center;
+    width: 25%;
+    height: 3.9rem;
+    box-sizing: border-box;
+    border-right: .05rem solid #EFEFEF;
+    border-bottom: .05rem solid #efefef;
+}
+
+.rmcz .kind li img {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin: .5rem 0;
+}
+
+.rmcz .kind li h5 {
+    line-height: .875rem;
+    font-size: .45rem;
+}
+
+.rmcz .kind li p {
+    line-height: .6rem;
+    font-size: .3rem;
+    color: #CFCFCF;
+}
+
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 2.3rem;
+}
+
+.footer ul {
+    width: 100%;
+    display: flex;
+}
+
+.footer li {
+    text-align: center;
+    width: 25%;
+    background-color: #333333;
+}
+
+.footer .active {
+    background-color: #FF8A00;
+}
+
+.footer li a img {
+    width: 1.225rem;
+    height: .95rem;
+}
+
+.footer li a p {
+    line-height: 1rem;
+    font-size: .425rem;
+    color: #EFEFEF;
+}
